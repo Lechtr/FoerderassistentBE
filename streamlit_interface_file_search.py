@@ -3,8 +3,8 @@ from openai import OpenAI, AssistantEventHandler
 
 
 # Initialize OpenAI client
-# client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-client = OpenAI(api_key="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")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+# client = OpenAI(api_key="")
 
 # Assistant ID (replace with your actual assistant ID)
 ASSISTANT_ID = "asst_lE6BsWFlL6eTucXxdBj48Za6"
